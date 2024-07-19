@@ -1,0 +1,72 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('../public/img/bg_1.png') !important;
+  background-size: cover;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.navbar {
+  margin-bottom: 50px;
+}
+
+.social-links i {
+  font-size: 1.5rem;
+}
+
+.skills .badge {
+  font-size: 1rem;
+}
+
+.text-shadow{
+  text-shadow: 2px 3px 6px rgba(128, 128, 128, 1);
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.profile-image.animated {
+  animation: bounce 2s infinite;
+}
+
+.card-1{
+  background-color: #DB4A2B;
+  padding: 3rem;
+  border-radius: 16px;
+  margin: 1px;
+}
+
+.card-2{
+  background-color: aliceblue;
+  padding: 1vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card{
+  padding: 2px;
+  border-radius: 0px;
+}
+
+.card-title{
+  text-align: center;
+  background-color: #DB4A2B;
+  padding: 3px;
+  color: wheat;
+}
+
+
