@@ -123,11 +123,76 @@ export default function Home() {
         <div className='row mt-5 text-white card-1'>
               <div className='col-lg-5 order-lg-1 order-1 text-lg-start text-center'>
                 <h1>Hello World</h1>
+                <p>This is a sample page for a Next.js application.</p>
+                <a href="https://github.com/asanrodnuan/nextjs-template">View the source code on GitHub</a>
               </div>
               <div className='col-lg-6'>
               <Image src={website_vector} className="img-fluid"  alt="Profile Picture"></Image>
               </div>
         </div>
+
+        <div className="row mt-5">
+          <div className="col-lg-5 mx-auto card-2 bg-dark p-4">
+            <h2 className='text-center'>Contact Me</h2>
+            <form>
+              <div className="mb-3">
+                <label for="name" className="form-label">Name</label>
+                <input type="text" className="form-control" id="name" required />
+              </div>
+              <div className="mb-3">
+                <label for="email" className="form-label">Email</label>
+                <input type="email" className="form-control" id="email" required />
+              </div>
+              <div className="mb-3">
+                <label for="message" className="form-label">Message</label>
+                <textarea className="form-control" id="message" rows="3" required></textarea>
+              </div>
+              <button type="submit" className="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+
+
+        <div className="row mt-5">
+        <div className="col-lg-6">
+          <div className="card">
+            <div className="card-body">
+              <h2 className="card-title">My Skills</h2>
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item">HTML & CSS</li>
+                <li className="list-group-item">JavaScript</li>
+                <li className="list-group-item">React.js</li>
+                <li className="list-group-item">Next.js</li>
+                <li className="list-group-item">Node.js</li>
+                <li className="list-group-item">Python</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6">
+          <div className="card">
+            <div className="card-body">
+              <h2 className="card-title">My Projects</h2>
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item">
+                  <strong>Project A:</strong> A web application for managing tasks
+                </li>
+                <li className="list-group-item">
+                  <strong>Project B:</strong> An e-commerce website
+                </li>
+                <li className="list-group-item">
+                  <strong>Project C:</strong> A personal blog built with Next.js
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        <footer className="text-center text-muted mt-5">
+          &copy; 2022 Next.js App
+        </footer>
 
 
       </main>
